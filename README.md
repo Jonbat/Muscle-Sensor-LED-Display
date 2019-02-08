@@ -12,7 +12,7 @@ A short description of the motivation behind the creation and maintenance of the
 The schematic and board files were made to work with the Atmega164p and the SPX-14633 32x32 LED screen. Another microcontroller can be used, and the schematic should make a good reference. Because of the fast clock and refresh rate needed to drive the 32x32 LED screen, I would highly not recommend using a micro controller any slower than the atmega164p (1 MHz). An optional RS-232 serial interface is included for debugging and JTAG interface for on-board programming of the Atmega 164P.
 
 Muscle Sensor
-* MyoWare Muscle Sensor  ($37.95)        adafruit.com/product/2699
+* MyoWare Muscle Sensor  ($37.95)        https://www.adafruit.com/product/2699
 * Surface EMG Electrodes ($4.95)         adafruit.com/product/2773
 * 1x3 Pinhead
 
@@ -60,4 +60,4 @@ If people like your project they’ll want to learn how they can use it. To do s
 ## License
 A short snippet describing the license (MIT, Apache etc)
 
-MIT © [Yourname]()
+MIT © [Jonbat]()
