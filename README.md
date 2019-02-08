@@ -42,15 +42,17 @@ Power:
 The algorithm C code does not use any libraries, besides avr/io. Using adafruit's libraries, the slowest processor that can adequately run the 32x32 matrix is 16MHz ([32x32 LED Matrix](https://www.sparkfun.com/products/retired/14633)). By avoiding the libraries and driving each pin directly, the LED matrix can be adequately driven on a 1 MHz processor (atmega164p).
 
 ## Installation
-Check out my youtube video for some step-by-step set-up 👌
-https://youtu.be/R8VW5WCSrXk
-Myoware muscle sensor set-up:   learn.adafruit.com/getting-started-with-myoware-muscle-sensor
+Check out my youtube video for some step-by-step instructions 👌:
 
-Matrix hook-up guide:           learn.sparkfun.com/tutorials/rgb-panel-hookup-guide
+https://youtu.be/R8VW5WCSrXk
+
+Myoware muscle sensor set-up:   https://learn.adafruit.com/getting-started-with-myoware-muscle-sensor
+
+Matrix hook-up guide:           https://learn.sparkfun.com/tutorials/rgb-panel-hookup-guide
 
 ## How it works:
 
-1:8 Scan rate panels:   sparkfun.com/sparkx/blog/2650
+1:8 Scan rate panels:   https://www.sparkfun.com/sparkx/blog/2650
 
 ## How to use?
 If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
