@@ -10,36 +10,43 @@ A short description of the motivation behind the creation and maintenance of the
  
 ## Tech/framework used
 ## Materials
-The schematic and board files were made to work with the Atmega164p and the SPX-14633 32x32 LED screen. Another microcontroller can be used, and the schematic should make a good reference. Because of the fast clock and refresh rate needed to drive the 32x32 LED screen, I would not use a micro controller any slower than the atmega164p (1 MHz). A RS-232 serial interface is included for debugging and a JTAG interface is included for programming of the Atmega 164P.
-In fact, the ATmega328 would be optimal for this project.
+The schematic and board files were made to work with the Atmega164p and the SPX-14633 32x32 LED screen. Another microcontroller can be used, and the schematic should make a good reference. Because of the fast clock and refresh rate needed to drive the 32x32 LED screen, I would highly not recommend using a micro controller any slower than the atmega164p (1 MHz). An optional RS-232 serial interface is included for debugging and JTAG interface for on-board programming of the Atmega 164P.
 
-Muscle Sensor:      sparkfun.com/products/13723
+Muscle Sensor
+* MyoWare Muscle Sensor  ($37.95) 
+* Surface EMG Electrodes ($4.95)
+* 1x3 Pinhead
 
-Atmega164p: 	   microchip.com/wwwproducts/en/ATmega164P
+Atmega164p ($3.79): 	   microchip.com/wwwproducts/en/ATmega164P
 
-32x32 LED Panel: 	    sparkfun.com/products/retired/14633
+32x32 LED Panel- 1:8 scan rate ($14.95): 	    sparkfun.com/products/retired/14633
+* 2x8 Pinhead
 
-Debugging (optional):
-* RS-232 serial interface:
-* Max232:                   digikey.com/product-detail/en/texas-instruments/MAX232N/296-1402-5-ND/277048
-On-board Programming:
+UART Debugging (optional):
+* RS-232 serial interface
+* Max232            
+
+On-board Programming (optional):
+* Any JTAG programmer to program micro controller
 * 2x5 Pinhead
 
-<b>Built with</b>
-- [Electron](https://electron.atom.io)
+Buttons: 2
 
-## Features
-What makes your project stand out?
+Capacitors: 
 
-## Code Example
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+Power:
+* 7805 voltage regulator
+* 9-Volt Battery
+* Barrel connector
+
+## Code
+The algorithm C code does not use any libraries, besides avr/io. Using adafruit's libraries, the slowest processor that can adequately run the 32x32 matrix is 16MHz sparkfun.com/products/retired/14633. By avoiding the libraries and driving each pin directly, the LED matrix can be adequately driven on a 1 MHz processor (atmega164p).
 
 ## Installation
 Provide step by step series of examples and explanations about how to get a development env running.
 This 
 
-
-## API Reference
+## API References
 
 Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
 
