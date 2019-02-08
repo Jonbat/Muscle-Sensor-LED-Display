@@ -11,10 +11,14 @@ A short description of the motivation behind the creation and maintenance of the
 ## Tech/framework used
 ## Materials
 The schematic and board files were made to work with the Atmega164p and the SPX-14633 32x32 LED screen. Another microcontroller can be used, and the schematic should make a good reference. Because of the fast clock and refresh rate needed to drive the 32x32 LED screen, I would not use a micro controller any slower than the atmega164p (1 MHz). A RS-232 serial interface is included for debugging and a JTAG interface is included for programming of the Atmega 164P.
-In fact, the ATmega328 would be optimal for this project. 
+In fact, the ATmega328 would be optimal for this project.
+
 Muscle Sensor:      sparkfun.com/products/13723
+
 Atmega164p: 	   microchip.com/wwwproducts/en/ATmega164P
+
 32x32 LED Panel: 	    sparkfun.com/products/retired/14633
+
 Debugging (optional):
 * RS-232 serial interface:
 * Max232:                   digikey.com/product-detail/en/texas-instruments/MAX232N/296-1402-5-ND/277048
