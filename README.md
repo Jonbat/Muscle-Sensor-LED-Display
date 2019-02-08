@@ -18,7 +18,7 @@ Muscle Sensor
 
 Atmega164p ($3.79): 	                    microchip.com/wwwproducts/en/ATmega164P
 
-32x32 LED Panel- 1:8 scan rate ($14.95): sparkfun.com/products/retired/14633
+32x32 LED Panel- 1:8 scan rate ($14.95): sparkfun.com/products/14633
 * 2x8 Pinhead
 
 UART Debugging (optional):
@@ -39,15 +39,18 @@ Power:
 * Barrel connector
 
 ## Code
-The algorithm C code does not use any libraries, besides avr/io. Using adafruit's libraries, the slowest processor that can adequately run the 32x32 matrix is 16MHz ([32 x 32 matrix](wwww.sparkfun.com/products/retired/14633)). By avoiding the libraries and driving each pin directly, the LED matrix can be adequately driven on a 1 MHz processor (atmega164p).
+The algorithm C code does not use any libraries, besides avr/io. Using adafruit's libraries, the slowest processor that can adequately run the 32x32 matrix is 16MHz (wwww.sparkfun.com/products/retired/14633). By avoiding the libraries and driving each pin directly, the LED matrix can be adequately driven on a 1 MHz processor (atmega164p).
 
 ## Installation
-Provide step by step series of examples and explanations about how to get a development env running.
-This 
+Check out my youtube video for some step-by-step set-up 👌
+https://youtu.be/R8VW5WCSrXk
+Myoware muscle sensor set-up:   learn.adafruit.com/getting-started-with-myoware-muscle-sensor
 
-## API References
+Matrix hook-up guide:           learn.sparkfun.com/tutorials/rgb-panel-hookup-guide
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+## How it works:
+
+1:8 Scan rate panels:   sparkfun.com/sparkx/blog/2650
 
 ## How to use?
 If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
