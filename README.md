@@ -9,7 +9,7 @@ The MyoWare Muscle Sensor.
 A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
  
 ## Materials
-The schematic and board files were made to work with the Atmega164p and the SPX-14633 32x32 LED screen. Another microcontroller can be used, and the schematic should make a good reference. Because of the fast clock and refresh rate needed to drive the 32x32 LED screen, I would highly not recommend using a micro controller any slower than the atmega164p (1 MHz). An optional RS-232 serial interface is included for debugging and JTAG interface for on-board programming of the Atmega 164P.
+The schematic and board files were designed for the Atmega164p and the SPX-14633 32x32 LED screen. Another microcontroller can be used, and the schematic should make a good reference. Because of the fast clock and refresh rate needed to drive the 32x32 LED screen, I would highly not recommend using a micro controller any slower than the atmega164p (1 MHz). An optional RS-232 serial interface is included for debugging and JTAG interface for on-board programming of the Atmega 164P.
 
 Muscle Sensor
 * MyoWare Muscle Sensor  ($37.95)        https://www.adafruit.com/product/2699
