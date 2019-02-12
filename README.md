@@ -7,6 +7,9 @@ This micro-controller project detects muscle contractions and displays it on to 
 ## Motivation
 The MyoWare Muscle Sensor. 
 A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+
+## Code
+The algorithm C code does not use any libraries, besides avr/io. Using adafruit's libraries, the slowest processor that can adequately run the 32x32 matrix is 16MHz ([32x32 LED Matrix](https://www.sparkfun.com/products/retired/14633)). By avoiding the libraries and driving each pin directly, the LED matrix can be adequately driven on a 1 MHz processor (atmega164p).
  
 ## Materials
 The schematic and board files were designed for the Atmega164p and the SPX-14633 32x32 LED screen. Another microcontroller can be used, and this schematic should make a good reference. Because of the fast clock and refresh rate needed to drive the 32x32 LED screen, I would  recommend using a micro controller with a 1 MHz processor and higher. An optional RS-232 serial interface is included for debugging and JTAG interface for on-board programming of the Atmega 164P.
@@ -37,9 +40,6 @@ Power:
 * 7805 voltage regulator
 * 9-Volt Battery
 * Barrel connector
-
-## Code
-The algorithm C code does not use any libraries, besides avr/io. Using adafruit's libraries, the slowest processor that can adequately run the 32x32 matrix is 16MHz ([32x32 LED Matrix](https://www.sparkfun.com/products/retired/14633)). By avoiding the libraries and driving each pin directly, the LED matrix can be adequately driven on a 1 MHz processor (atmega164p).
 
 ## Installation
 Check out my youtube video for some step-by-step instructions 👌:
