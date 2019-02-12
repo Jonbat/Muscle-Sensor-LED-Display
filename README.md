@@ -43,13 +43,11 @@ Other (see schematic):
 * Several resistors
 
 ## Installation
-Check out my youtube video for some step-by-step instructions 👌:
+Check out my [youtube video](https://youtu.be/R8VW5WCSrXk) for some step-by-step instructions 👌
 
-https://youtu.be/R8VW5WCSrXk
-
-[Myoware muscle sensor set-up](https://learn.adafruit.com/getting-started-with-myoware-muscle-sensor)
-
-[Matrix hook-up guide](https://learn.sparkfun.com/tutorials/rgb-panel-hookup-guide)
+Additional installation guides:
+* [Myoware muscle sensor set-up](https://learn.adafruit.com/getting-started-with-myoware-muscle-sensor)
+* [Matrix hook-up guide](https://learn.sparkfun.com/tutorials/rgb-panel-hookup-guide)
 
 ## How it works:
 
