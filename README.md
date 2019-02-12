@@ -1,4 +1,3 @@
-## Demo
 ![](Muscle_giphy.gif)
 
 ## Muscle Sensor LED Display
