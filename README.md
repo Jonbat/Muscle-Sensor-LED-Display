@@ -1,16 +1,14 @@
 ## Demo
-Include logo/demo screenshot etc.
-https://media.giphy.com/media/BMfF4Qe66l5vR8F95t/giphy.gif
+![](Muscle_giphy.gif)
 
 ## Muscle Sensor LED Display
 This micro-controller project detects muscle contractions and displays it on to a 32x32 LED screen. The harder you contract your muscle, the larger the wave! Any large enough muscle is compatible, such as the biceps, forearms, or even forehead muscles!
 
 ## Motivation
-The MyoWare Muscle Sensor. 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+The goal of this project was to create an LED 32x32 matrix project using the atmega164P (1MHz processor). However, using adafruit's libraries, the slowest processor that can adequately run the 32x32 matrix is 16MHz. By avoiding the libraries and driving each pin directly, as this code demonstrates, the LED matrix can adequately be driven on the 1 MHz processor of the atmega164p. 
 
 ## Code
-The algorithm C code does not use any libraries, besides avr/io. Using adafruit's libraries, the slowest processor that can adequately run the 32x32 matrix is 16MHz ([32x32 LED Matrix](https://www.sparkfun.com/products/retired/14633)). By avoiding the libraries and driving each pin directly, the LED matrix can be adequately driven on a 1 MHz processor (atmega164p).
+The algorithm C code does not use any libraries, besides avr/io.
  
 ## Materials
 The schematic and board files were designed for the Atmega164p and the SPX-14633 32x32 LED screen. Another microcontroller can be used, and this schematic should make a good reference. Because of the fast clock and refresh rate needed to drive the 32x32 LED screen, I would  recommend using a micro controller with a 1 MHz processor and higher. An optional RS-232 serial interface is included for debugging and JTAG interface for on-board programming of the Atmega 164P.
@@ -57,9 +55,3 @@ https://youtu.be/R8VW5WCSrXk
 ## How it works:
 
 [1:8 Scan rate panels](https://www.sparkfun.com/sparkx/blog/2650)
-
-
-## License
-A short snippet describing the license (MIT, Apache etc)
-
-MIT © [Jonbat]()
