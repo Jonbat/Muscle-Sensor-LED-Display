@@ -1,10 +1,10 @@
 ![](Muscle_giphy.gif)
 
 ## Muscle Sensor LED Display
-This micro-controller project detects muscle contractions and displays it on to a 32x32 LED screen. The harder you contract your muscle, the larger the wave! Any large enough muscle is compatible, such as the biceps, forearms, or even forehead muscles!
+This micro-controller project detects muscle contractions and displays it on a 32x32 LED screen. The harder you contract your muscle, the larger the wave! Any large enough muscle is compatible, such as the biceps, forearms, or even forehead muscles!
 
 ## Motivation
-Using adafruit's libraries, the slowest processor that can adequately run the [32x32 matrix](https://sparkfun.com/products/14633) is 16MHz. By avoiding the libraries and driving each pin directly, as this code demonstrates, the LED matrix can adequately be driven on the 1 MHz processor of the atmega164p. 
+Using adafruit's libraries, the slowest processor that can adequately run the [SPX-14633 32x32 matrix](https://sparkfun.com/products/14633) is 16MHz. By avoiding the libraries and driving each pin directly, as this code demonstrates, the LED matrix can adequately be driven on the 1 MHz processor of the atmega164p. 
 
 ## Code
 The micro-controller C code does not use any libraries, besides avr/io.
