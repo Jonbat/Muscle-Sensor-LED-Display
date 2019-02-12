@@ -15,13 +15,13 @@ The algorithm C code does not use any libraries, besides avr/io. Using adafruit'
 The schematic and board files were designed for the Atmega164p and the SPX-14633 32x32 LED screen. Another microcontroller can be used, and this schematic should make a good reference. Because of the fast clock and refresh rate needed to drive the 32x32 LED screen, I would  recommend using a micro controller with a 1 MHz processor and higher. An optional RS-232 serial interface is included for debugging and JTAG interface for on-board programming of the Atmega 164P.
 
 Muscle Sensor
-* MyoWare Muscle Sensor  ($37.95)        https://www.adafruit.com/product/2699
-* Surface EMG Electrodes ($4.95)         adafruit.com/product/2773
+* [MyoWare Muscle Sensor  ($37.95)]        (https://www.adafruit.com/product/2699)
+* [Surface EMG Electrodes ($4.95)]         (https://adafruit.com/product/2773)
 * 1x3 Pinhead
 
-Atmega164p ($3.79): 	                    microchip.com/wwwproducts/en/ATmega164P
+[Atmega164p ($3.79)] 	                    (https://microchip.com/wwwproducts/en/ATmega164P)
 
-32x32 LED Panel- 1:8 scan rate ($14.95): sparkfun.com/products/14633
+[32x32 LED Panel- 1:8 scan rate ($14.95)] (https://sparkfun.com/products/14633)
 * 2x8 Pinhead
 
 UART Debugging (optional):
