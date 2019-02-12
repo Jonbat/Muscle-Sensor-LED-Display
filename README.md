@@ -7,7 +7,7 @@ This micro-controller project detects muscle contractions and displays it on to 
 Using adafruit's libraries, the slowest processor that can adequately run the [32x32 matrix](https://sparkfun.com/products/14633) is 16MHz. By avoiding the libraries and driving each pin directly, as this code demonstrates, the LED matrix can adequately be driven on the 1 MHz processor of the atmega164p. 
 
 ## Code
-The algorithm C code does not use any libraries, besides avr/io.
+The micro-controller C code does not use any libraries, besides avr/io.
  
 ## Materials
 The schematic and board files were designed for the Atmega164p and the SPX-14633 32x32 LED screen. Another microcontroller can be used, and this schematic should make a good reference. Because of the fast clock and refresh rate needed to drive the 32x32 LED screen, I would  recommend using a micro controller with a 1 MHz processor and higher. An optional RS-232 serial interface is included for debugging and JTAG interface for on-board programming of the Atmega 164P.
