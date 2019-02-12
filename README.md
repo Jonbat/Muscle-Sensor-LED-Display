@@ -1,5 +1,6 @@
 ## Demo
 Include logo/demo screenshot etc.
+https://media.giphy.com/media/BMfF4Qe66l5vR8F95t/giphy.gif
 
 ## Muscle Sensor LED Display
 This micro-controller project detects muscle contractions and displays it on to a 32x32 LED screen. The harder you contract your muscle, the larger the wave! Any large enough muscle is compatible, such as the biceps, forearms, or even forehead muscles!
@@ -20,7 +21,7 @@ Muscle Sensor:
 * 1x3 Pinhead
 
 Micro-controller:
-*[Atmega164p ($3.79)](https://microchip.com/wwwproducts/en/ATmega164P)
+* [Atmega164p ($3.79)](https://microchip.com/wwwproducts/en/ATmega164P)
 
 LED Panel:
 * [32x32 LED Panel- 1:8 scan rate ($14.95)](https://sparkfun.com/products/14633)
@@ -57,10 +58,6 @@ https://youtu.be/R8VW5WCSrXk
 
 [1:8 Scan rate panels](https://www.sparkfun.com/sparkx/blog/2650)
 
-## How to use?
-If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
-
-#### Anything else that seems useful
 
 ## License
 A short snippet describing the license (MIT, Apache etc)
