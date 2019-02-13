@@ -49,4 +49,4 @@ Other (see schematic):
 
 ## How it works:
 
-[1:8 Scan rate panels](https://www.sparkfun.com/sparkx/blog/2650)
+* [1:8 Scan rate panels](https://www.sparkfun.com/sparkx/blog/2650)
