@@ -23,7 +23,7 @@ Micro-controller:
 
 LED Panel:
 * [32x32 LED Panel- 1:8 scan rate ($14.95)](https://sparkfun.com/products/14633)
-* 2x8 Pinhead
+* 2x8 pinhead
 
 UART Debugging (optional):
 * RS-232 serial interface
@@ -31,11 +31,11 @@ UART Debugging (optional):
 
 On-board Programming (optional):
 * Any JTAG programmer to program micro controller
-* 2x5 Pinhead
+* 2x5 pinhead
 
 Power:
 * 7805 voltage regulator
-* 9-Volt Battery
+* 9-Volt battery
 * Barrel connector
 
 Other (see schematic):
