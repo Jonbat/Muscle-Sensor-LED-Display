@@ -47,6 +47,6 @@ Other (see schematic):
 * [Myoware muscle sensor set-up](https://learn.adafruit.com/getting-started-with-myoware-muscle-sensor)
 * [Matrix hook-up guide](https://learn.sparkfun.com/tutorials/rgb-panel-hookup-guide)
 
-## How it works:
+## How it works
 
 * [1:8 Scan rate panels](https://www.sparkfun.com/sparkx/blog/2650)
