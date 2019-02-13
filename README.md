@@ -2,6 +2,7 @@
 
 ## Muscle Sensor LED Display
 This micro-controller project detects muscle contractions and displays it on a 32x32 LED screen. The harder you contract your muscle, the larger the wave! Any large enough muscle is compatible, such as the biceps, forearms, or even forehead muscles!
+Check out my [youtube video](https://youtu.be/R8VW5WCSrXk) for some step-by-step installation instructions. 👌
 
 ## Motivation
 Using adafruit's libraries, the slowest processor that can adequately run the [SPX-14633 32x32 matrix](https://sparkfun.com/products/14633) is 16MHz. By avoiding the libraries and driving each pin directly, as this code demonstrates, the LED matrix can adequately be driven on the 1 MHz processor of the atmega164p. 
@@ -42,10 +43,7 @@ Other (see schematic):
 * Several 0.1 μF capacitors
 * Several resistors
 
-## Installation
-Check out my [youtube video](https://youtu.be/R8VW5WCSrXk) for some step-by-step instructions 👌
-
-Additional installation guides:
+## Installation Help
 * [Myoware muscle sensor set-up](https://learn.adafruit.com/getting-started-with-myoware-muscle-sensor)
 * [Matrix hook-up guide](https://learn.sparkfun.com/tutorials/rgb-panel-hookup-guide)
 
