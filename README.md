@@ -39,7 +39,7 @@ Power:
 * Barrel connector
 
 Other (see schematic):
-* 2 Buttions
+* 2 Buttons
 * Several 0.1 μF capacitors
 * Several resistors
 
