@@ -1,7 +1,10 @@
-<p align="center">
- <img src="Muscle_giphy.gif" width="100%">
-</p>
+Waveform Demo             |  Physical Board
+:-------------------------:|:-------------------------:
+![](muscleDemo.gif)  |  ![](realBoard.png)
 
+Schematic             |  Board Design
+:-------------------------:|:-------------------------:
+![](schematic.jpg)  |  ![](boardCAD.jpg)
 
 ## Muscle Sensor LED Display
 This micro-controller project measures muscle contractions and displays it on a 32x32 LED screen. The harder you contract your muscle, the larger the wave! Any large enough muscle is compatible, such as the biceps, forearms, or even forehead muscles!
