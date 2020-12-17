@@ -1,3 +1,7 @@
+<p align="center">
+ <img src="muscleDemo.gif" width="600">
+</p>
+
 ## Muscle Sensor LED Display
 This micro-controller project measures muscle contractions and displays it on a 32x32 LED screen. The harder you contract your muscle, the larger the wave! Any large enough muscle is compatible, such as the biceps, forearms, or even forehead muscles!
 Check out my [youtube video](https://youtu.be/R8VW5WCSrXk) for some step-by-step installation instructions. 👌
@@ -49,11 +53,6 @@ Other (see schematic):
 * [1:8 Scan rate panels](https://www.sparkfun.com/sparkx/blog/2650)
 
 ## Images
-
-#### Wrist Demo
-<p align="center">
- <img src="muscleDemo.gif" width="500">
-</p>
 
 #### Physcial Board
 <p align="center">
