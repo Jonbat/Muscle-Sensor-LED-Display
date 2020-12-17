@@ -1,4 +1,7 @@
-![](Muscle_giphy.gif)
+<p align="center">
+ <img src="Muscle_giphy.gif" width="100%">
+</p>
+
 
 ## Muscle Sensor LED Display
 This micro-controller project measures muscle contractions and displays it on a 32x32 LED screen. The harder you contract your muscle, the larger the wave! Any large enough muscle is compatible, such as the biceps, forearms, or even forehead muscles!
