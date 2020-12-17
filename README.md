@@ -1,11 +1,3 @@
-Waveform Demo             |  Physical Board
-:-------------------------:|:-------------------------:
-![](muscleDemo.gif | width=100)  |  ![](realBoard.png | width=100)
-
-Schematic             |  Board Design
-:-------------------------:|:-------------------------:
-![](schematic.jpg | width=100)  |  ![](boardCAD.jpg| width=100)
-
 ## Muscle Sensor LED Display
 This micro-controller project measures muscle contractions and displays it on a 32x32 LED screen. The harder you contract your muscle, the larger the wave! Any large enough muscle is compatible, such as the biceps, forearms, or even forehead muscles!
 Check out my [youtube video](https://youtu.be/R8VW5WCSrXk) for some step-by-step installation instructions. 👌
@@ -15,7 +7,29 @@ Using adafruit's libraries, the slowest processor that can adequately run the [S
 
 ## Code
 The micro-controller C code does not use any libraries, besides avr/io.
- 
+
+## Images
+
+#### Wrist Demo
+<p align="center">
+ <img src="muscleDemo.gif" width="500">
+</p>
+
+#### Physcial Board
+<p align="center">
+ <img src="realBoard.png" width="500">
+</p>
+
+#### Schematic
+<p align="center">
+ <img src="schematic.jpg" width="500">
+</p>
+
+#### Board Design
+<p align="center">
+ <img src="boardCAD.jpg" width="500">
+</p>
+
 ## Materials
 The schematic and board files were designed for the Atmega164p and the SPX-14633 32x32 LED screen. Another microcontroller can be used, and this schematic should make a good reference. Because of the fast clock and refresh rate needed to drive the 32x32 LED screen, I would  recommend using a micro controller with a 1 MHz processor and higher. An optional RS-232 serial interface is included for debugging and JTAG interface for on-board programming of the Atmega 164P.
 
