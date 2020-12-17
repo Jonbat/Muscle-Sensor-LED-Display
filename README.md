@@ -8,28 +8,6 @@ Using adafruit's libraries, the slowest processor that can adequately run the [S
 ## Code
 The micro-controller C code does not use any libraries, besides avr/io.
 
-## Images
-
-#### Wrist Demo
-<p align="center">
- <img src="muscleDemo.gif" width="500">
-</p>
-
-#### Physcial Board
-<p align="center">
- <img src="realBoard.png" width="500">
-</p>
-
-#### Schematic
-<p align="center">
- <img src="schematic.jpg" width="500">
-</p>
-
-#### Board Design
-<p align="center">
- <img src="boardCAD.jpg" width="500">
-</p>
-
 ## Materials
 The schematic and board files were designed for the Atmega164p and the SPX-14633 32x32 LED screen. Another microcontroller can be used, and this schematic should make a good reference. Because of the fast clock and refresh rate needed to drive the 32x32 LED screen, I would  recommend using a micro controller with a 1 MHz processor and higher. An optional RS-232 serial interface is included for debugging and JTAG interface for on-board programming of the Atmega 164P.
 
@@ -68,5 +46,26 @@ Other (see schematic):
 * [Matrix hook-up guide](https://learn.sparkfun.com/tutorials/rgb-panel-hookup-guide)
 
 ## How it works
-
 * [1:8 Scan rate panels](https://www.sparkfun.com/sparkx/blog/2650)
+
+## Images
+
+#### Wrist Demo
+<p align="center">
+ <img src="muscleDemo.gif" width="500">
+</p>
+
+#### Physcial Board
+<p align="center">
+ <img src="realBoard.png" width="500">
+</p>
+
+#### Schematic
+<p align="center">
+ <img src="schematic.jpg" width="500">
+</p>
+
+#### Board Design
+<p align="center">
+ <img src="boardCAD.jpg" width="500">
+</p>
