@@ -45,13 +45,6 @@ Other (see schematic):
 * Several 0.1 μF capacitors
 * Several resistors
 
-## Installation Help
-* [Myoware muscle sensor set-up](https://learn.adafruit.com/getting-started-with-myoware-muscle-sensor)
-* [Matrix hook-up guide](https://learn.sparkfun.com/tutorials/rgb-panel-hookup-guide)
-
-## How it works
-* [1:8 Scan rate panels](https://www.sparkfun.com/sparkx/blog/2650)
-
 ## Images
 
 #### Physcial Board
@@ -68,3 +61,10 @@ Other (see schematic):
 <p align="center">
  <img src="boardCAD.jpg" width="500">
 </p>
+
+## Installation Help
+* [Myoware muscle sensor set-up](https://learn.adafruit.com/getting-started-with-myoware-muscle-sensor)
+* [Matrix hook-up guide](https://learn.sparkfun.com/tutorials/rgb-panel-hookup-guide)
+
+## How it works
+* [1:8 Scan rate panels](https://www.sparkfun.com/sparkx/blog/2650)
